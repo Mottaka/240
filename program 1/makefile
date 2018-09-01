@@ -4,7 +4,7 @@ PRG = Aprog
 
 Aprog: main.o
 	   $(GPP) -o $(PRG) main.o
-main.o:main.cc
+main.o: main.cc
 	   $(GPP) -o main.o -c main.cc
 
 clean:
